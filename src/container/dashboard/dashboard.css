@@ -1,0 +1,8 @@
+.price {
+    display: inline-block;
+    color: #e9074b;
+    float: right;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: .4rem;
+}
