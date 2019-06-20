@@ -36,7 +36,10 @@ export default class Navbox extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Cart</NavLink>
+                <NavLink href="/cart">Cart</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/playground">Playground</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
